@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.clock{
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    
+}
+
+.clock .display{
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.clock .display .weekdays{
+    font-size: 17px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    text-align: center;
+
+}
+
+.weekdays span{
+    padding: 0 10px;
+    opacity: 0.4;
+
+}
+
+.display .timeDisplay{
+font-size: 60px;
+display: flex;
+justify-content: center;
+letter-spacing: 2px;
+
+}
+
+.timeDisplay .format{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
